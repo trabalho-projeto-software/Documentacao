@@ -13,11 +13,11 @@
 - Pedro Carvalho Nascimento
 - Caio Ribeiro Saracuza Luz
 
-#### Documentos
+#### Documentos:
 
-##### Escopo e Levantamento de Requisitos
-
-
-##### Casos de Uso
-
+- [x] Escopo e Levantamento de Requisitos
+- [x] Casos de Uso
+- [ ] Diagrama de Pacotes
+- [ ] Arquitetura
+- [ ] VCP
 
