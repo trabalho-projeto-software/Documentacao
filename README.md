@@ -17,7 +17,7 @@
 
 - [x] Escopo e Levantamento de Requisitos
 - [x] Casos de Uso
-- [ ] Diagrama de Pacotes
-- [ ] Arquitetura
-- [ ] VCP
+- [x] Diagrama de Pacotes
+- [x] Arquitetura
+- [x] VCP
 
