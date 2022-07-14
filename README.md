@@ -20,4 +20,8 @@
 - [x] Diagrama de Pacotes
 - [x] Arquitetura
 - [x] VCP
-
+- [x] Diagramas de Sequencia
+- [x] Diagrama de Classes
+- [x] Análise de Problemas de Projeto
+- [x] Aplicação de Padrões de Projeto(GOF)
+- [x] Implementação de Padrões de Projeto
