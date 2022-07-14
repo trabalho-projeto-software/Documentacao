@@ -3,11 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/EstadoDoPeriodo/PeriodoFechado.java</file>
-            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/EstadoDoPeriodo/PeriodoDAO.java</file>
-            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/EstadoDoPeriodo/EstadoDoPeriodo.java</file>
-            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/EstadoDoPeriodo/PeriodoEmAndamento.java</file>
-            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/EstadoDoPeriodo/FaseDeInscricao.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/EstadoDoPeriodo/PeriodoDAO.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/EstadoDoPeriodo/FaseDeInscricao.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/TurmaBuilder/DiretorTurma.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/EstadoDoPeriodo/EstadoDoPeriodo.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/EstadoDoPeriodo/PeriodoEmAndamento.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/TurmaBuilder/TurmaBuilder.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/models/TurmaDAO.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/TurmaBuilder/TurmaBuilderConcreto.java</file>
+            <file>file:/C:/Users/TelcoManager/Documents/GitHub/Documentacao/Projeto-IdUni-Web/src/java/EstadoDoPeriodo/PeriodoFechado.java</file>
         </group>
     </open-files>
 </project-private>

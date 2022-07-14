@@ -9,6 +9,7 @@ package models.EstadoDoPeriodo;
  * @author Gabriel Vieira de Carvalho, Matrícula: 119083048
  */
 
+//Padrão State
 
 // A classe de estado base declara métodos que todos os estados
 // concretos devem implementar e também fornece uma referência

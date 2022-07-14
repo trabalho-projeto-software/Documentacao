@@ -9,6 +9,7 @@ package models.EstadoDoPeriodo;
  * @author Gabriel Vieira de Carvalho, Matrícula: 119083048
  */
 
+//Padrão State
 
 // a classe PeriodoDAO age como um contexto. Ela também mantém
 // uma referência para uma instância de uma das classes de

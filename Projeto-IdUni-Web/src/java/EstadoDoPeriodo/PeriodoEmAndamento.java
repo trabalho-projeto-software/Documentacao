@@ -9,6 +9,8 @@ package models.EstadoDoPeriodo;
  * @author Gabriel Vieira de Carvalho, Matrícula: 119083048
  */
 
+//Padrão State
+
 // Estado Referente ao Periodo em Andamento. Os métodos se adaptarão para permitir
 // ou bloquear a ação escolhida.
 public class PeriodoEmAndamento extends EstadoDoPeriodo{
