@@ -25,3 +25,6 @@
 - [x] Análise de Problemas de Projeto
 - [x] Aplicação de Padrões de Projeto(GOF)
 - [x] Implementação de Padrões de Projeto
+
+#### HISTÓRICO DE REVISÃO (CONTENDO O QUE CADA MEMBRO FEZ)
+- Planilha: < https://docs.google.com/spreadsheets/d/11xy2JxAKxVKAcXI5ZZdnYjkUTJx2L1WlnxI8YV_uUi8/edit?usp=sharing >
