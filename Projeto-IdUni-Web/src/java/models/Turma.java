@@ -9,6 +9,12 @@ package models;
  *
  * @author Ramos
  */
+
+/*
+Autor do código: Joel Lopes Cunha de Souza
+Matricula: 119083024
+*/
+
 public class Turma {
     private String codigo;
     private String sala;

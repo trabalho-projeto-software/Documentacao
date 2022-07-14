@@ -16,8 +16,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 /**
  *
- * @author Ramos
+ * @author joell
+ * Autor do código: Joel Lopes Cunha de Souza
+ * Matricula: 119083024
  */
+
 @WebServlet(name = "TurmaDAO", urlPatterns = {"/TurmaDAO"})
 public class TurmaDAO extends HttpServlet{
     private Connection conexao;

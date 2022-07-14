@@ -3,20 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package TurmaBuilder;
+
+import models.Disciplina;
+import models.Professor;
+import models.Turma;
 
 /**
  *
  * @author joell
+ * Autor do código: Joel Lopes Cunha de Souza
+ * Matricula: 119083024
  */
-public class TurmaBuilder {
+
+public class TurmaBuilderConcreto implements TurmaBuilder{
     //Objeto do tipo turma que deverá ser instanciado e retornado pelo builder
     private Turma turmaACriar;
     
     /* O construtor usa o método resetar para instanciar um objeto turma ainda
     sem nenhum de seus atributos setados no momento da criação do construtor.
     */ 
-    public TurmaBuilder(){
+    public TurmaBuilderConcreto(){
         this.resetar();
     }
     
@@ -46,5 +53,19 @@ public class TurmaBuilder {
     
     public void setHorario(String horario){
         this.turmaACriar.setHorario(horario);
+    }
+    
+    /* 
+    Método para recuperar o resultado do Builder. 
+    Durante a execução desse método, o método resetar() também é chamado,
+    deixando o Builder pronto para produzir outra Turma caso seja necessário.
+    Esse método não é declarado na interface TurmaBuilder pois seu retorno pode
+    ser de um tipo diferente de outro Builder que também a implemente, por isso
+    a classe cliente deve conhecer o Builder concreto.
+    */
+    public Turma getResultado(){
+        Turma Resultado = this.turmaACriar;
+        this.resetar();
+        return Resultado;
     }
 }
