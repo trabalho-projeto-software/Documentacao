@@ -5,10 +5,17 @@
  */
 package models;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  *
  * @author Ramos
+ * @author Marllon Oliveira B. Guida, Matrícula: 214083115
  */
-public class Aluno {
-    
+public class Aluno implements Observer {
+
+    //Método de Update que notifica ao aluno sobre a mudança no estado do Período em PeriodoDAO
+    public void update(){
+    } 
 }

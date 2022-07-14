@@ -3,10 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package models.EstadoDoPeriodo;
+//Importa as funções necessárias para as funções de Observer
+import java.util.Observable;
 
 /**
  *
  * @author Gabriel Vieira de Carvalho, Matrícula: 119083048
+ * @author Marllon Oliveira B. Guida, Matrícula: 214083115
  */
 
 //Padrão State
@@ -14,10 +17,13 @@ package models.EstadoDoPeriodo;
 // a classe PeriodoDAO age como um contexto. Ela também mantém
 // uma referência para uma instância de uma das classes de
 // estado que representa o atual estado do Periodo.
-public class PeriodoDAO {
+
+public class PeriodoDAO extends Observable {
 
     private EstadoDoPeriodo estadoPeriodo;
     private FaseDeInscricao faseDeInscricao;
+    //Observable para notificar o aluno da mudança de estado do período
+	private ObservableAluno estadoAtual;
 
     // O Periodo atual inicia na fase de Inscrição;
     public PeriodoDAO() {
@@ -41,5 +47,15 @@ public class PeriodoDAO {
         
     public void LancarNotas(){
         estadoPeriodo.LancarNotas();
+    }
+    
+    // Padrão Comportamental Observer
+    // Com esse método iremos notificar ao aluno toda vez que acontecer alguma mudança no estado do período
+
+    public void notificaAluno(){
+        this.estadoAtual = estadoPeriodo;
+
+        setChanged();
+        notifyObservers();
     }
 }
